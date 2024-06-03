@@ -7,3 +7,4 @@
 * [테스트 실행](undefined-4.md)
 * [테스트 실행 (예약)](undefined-5.md)
 * [테스트 결과 확인](undefined-6.md)
+* [팀 멤버 구성](undefined-7.md)
