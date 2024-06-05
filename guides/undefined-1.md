@@ -40,6 +40,10 @@ TT-Admin에 의해 사용자의 API Key 가 갱신되면 Notification icon을 �
 TT-Admin에게 API Key 갱신 요청이 접수된 이후 이를 승인하는 절차는 관리자에 의해 몇 가지 확인 절차를 거친 후 처리되기에 즉각적이지 않을 수 있습니다. 이점 참고하시어 가급적 만료 전 충분한 여유를 두고 갱신 요청해 주시기 바랍니다.
 {% endhint %}
 
+{% hint style="warning" %}
+API Key 만료 시 TestTracker에 로그인할 수 없고, REST API를 통한 테스트 실행 역시 불가합니다. 또한 만료 이후 장기간 재설정 요구가 없을 시 미사용 계정으로 간주되어 데이터베이스에서 영구 삭제 처리될 수 있으니 참고해 주시기 바랍니다.
+{% endhint %}
+
 
 
 ## 사용자 정보 변경 (Edit Profile)
