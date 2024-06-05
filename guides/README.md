@@ -20,7 +20,7 @@ Invitation email 은 발송 일로부터 임의의 기간 동안만 유효합니
 
 Invitation email에서 "Create Account" 링크 클릭 시 인터넷 브라우저에서 아래와 같은 페이지로 이동합니다. 사용자 계정 생성을 위해 필요한 정보를 입력하신 후 하단의 "Sign up" 버튼을 클릭하시기 바랍니다.
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>사용자 계정 생성을 위한 입력 폼</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>사용자 계정 생성을 위한 입력 폼</p></figcaption></figure>
 
 {% hint style="info" %}
 Email Address, Password 항목은 필수 입력 사항입니다.
