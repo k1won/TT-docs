@@ -26,9 +26,25 @@ UIUX, Performance test의 경우 현재 버전에서는 미 지원 상태입니�
 
 
 
+## API Test
+
+API Test는 TestTracker에서 지원하는 세 가지 테스트 타입 가운데 하나이고, Back-end server를 대상으로 각각의 API Endpoint에 대한 테스트 요청을 전송하고 응답 메시지를 통해 Test Case를 검증하는 시험 방식입니다.
+
+<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption><p>API Test 실행 설정</p></figcaption></figure>
+
+<mark style="color:blue;">**Test Script Selection**</mark> : 시험 대상 또는 목적에 따라 여러 test script 가운데 하나를 선택할 수 있고, 세부적으로는 관련 있는 TC 들의 묶음인 Test Suite(Item Group) 역시 선별해서 테스트를 실행할 수 있습니다. 그리고 test script 신규 추가 또는 기존 script modify를 위한 script file upload 기능이 제공됩니다.
+
+<mark style="color:blue;">**Run Configuration**</mark> : Test script 실행 시 적용 가능한 몇 가지 옵션 설정 기능과 함께 테스트를 실행시키는 버튼이 위치합니다.
+
+<mark style="color:blue;">**Script Information**</mark> : Script file 과 Environment file에 관한 메타 데이터를 제공합니다. 참고로 script file 은 test code 가 기술되어 있고, environment file 은 test code 가 참조하는 일부 변수값들이 설정되어 있어 테스트 대상 또는 조건에 따라 서로 다른 테스트 값으로 TC 검증이 가능합니다.
+
+
+
 ## Report
 
 aa
+
+<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 
 
