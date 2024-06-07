@@ -78,7 +78,7 @@ API Key 만료 시 TestTracker에 로그인할 수 없고, REST API를 통한 �
 
 
 
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption><p>비밀번호 변경이 정상적으로 처리된 화면</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption><p>비밀번호 변경 완료 예시</p></figcaption></figure>
 
 비밀번호 변경이 정상적으로 처리된 경우 위와 같이 안내 메시지가 말풍선과 함께 나타나고 잠시 뒤 화면에서 사라집니다.
 
