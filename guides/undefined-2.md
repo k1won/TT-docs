@@ -10,7 +10,7 @@ description: >-
 
 Workspace는 테스트 타입(API/Ux/Performance)을 선택하거나 관련 리소스 상태확인 또는 설정 등 테스트 실행에 관한 기본 작업 공간이라 할 수 있습니다. 테스트 실행 또는 테스트 결과에 대한 확인 및 분석을 담당하는 다수의 팀원들이 멤버로서 Workspace를 공유하게 됩니다.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Workspace 구성</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Workspace 구성</p></figcaption></figure>
 
 <mark style="color:blue;">**Entry**</mark> : TestTracker에서 지원하는 세 가지 테스트 타입을 실행하기 위한 각각의 페이지로 이동할 수 있는 선택 버튼들이 위치합니다.
 
@@ -40,7 +40,7 @@ API Test는 TestTracker에서 지원하는 세 가지 테스트 타입 가운데
 
 
 
-## Test Result
+## API Test Result
 
 테스트 실행 후 진행 상황 및 실행 결과를 확인할 수 있습니다. 테스트가 진행됨과 동시에 각각의 test item에 대한 테스트 결과가 화면에 반영되고, 모든 테스트 종료 시 오류 발생 여부 및 통계를 확인할 수 있습니다.
 
@@ -49,6 +49,18 @@ API Test는 TestTracker에서 지원하는 세 가지 테스트 타입 가운데
 테스트 과정에서 발생한 각종 메시지와 로그 등을 개별 test item 별로 확인 가능합니다. 즉, TestTracker 가 TC 검증을 위해 target entity 와 교환한 HTTP Transaction message(Request, Response)와 Console log, Error/Fail contents 등을 Side panel UI를 통해 자세히 확인 가능합니다.
 
 <figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption><p>테스트 결과에 대한 detail view</p></figcaption></figure>
+
+
+
+## UX Test
+
+서비스 준비 중입니다.
+
+
+
+## Performance Test
+
+서비스 준비 중입니다.
 
 
 
