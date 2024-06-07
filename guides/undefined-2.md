@@ -10,7 +10,7 @@ description: >-
 
 Workspace는 테스트 타입(API/Ux/Performance)을 선택하거나 관련 리소스 상태확인 또는 설정 등 테스트 실행에 관한 기본 작업 공간이라 할 수 있습니다. 테스트 실행 또는 테스트 결과에 대한 확인 및 분석을 담당하는 다수의 팀원들이 멤버로서 Workspace를 공유하게 됩니다.
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Workspace 구성</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Workspace 구성</p></figcaption></figure>
 
 <mark style="color:blue;">**Entry**</mark> : TestTracker에서 지원하는 세 가지 테스트 타입을 실행하기 위한 각각의 페이지로 이동할 수 있는 선택 버튼들이 위치합니다.
 
@@ -20,8 +20,8 @@ Workspace는 테스트 타입(API/Ux/Performance)을 선택하거나 관련 리�
 
 <mark style="color:blue;">**Working Directory**</mark> : 테스트 실행에 필요한 script file 및 data file들을 관리할 수 있습니다. 권한이 있는 사용자에 의해 파일 삭제가 가능하고, data file에 한 해 업로드 기능을 지원합니다. Test script file에 대한 생성 또는 업로드는 각 테스트 실행 페이지에서 지원합니다.
 
-{% hint style="info" %}
-UIUX, Performance test의 경우 현재 버전에서는 미 지원 상태입니다. (2026년 지원 예정)
+{% hint style="warning" %}
+UIUX, Performance test의 경우 현재 버전에서는 미 지원 상태입니다. (추후 지원 예정)
 {% endhint %}
 
 
@@ -66,9 +66,21 @@ API Test는 TestTracker에서 지원하는 세 가지 테스트 타입 가운데
 
 ## Report
 
-aa
+테스트 결과에 대해 요약된 정보를 제공합니다. 최근 365일간의 시험 결과를 바탕으로 Fail 발생 건수, Daily record, Item group 별 Fail 수 및 기타 부가정보 등을 확인할 수 있습니다. 이러한 정보들을 통해 테스트 대상에 대한 품질 현황 및 개선 추이 파악이 용이하도록 하는 것을 목적으로 합니다.
 
-<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>테스트 결과에 대한 summary report</p></figcaption></figure>
+
+<mark style="color:blue;">**Test Fails**</mark> : Bug Curve 표현을 위해 사용자가 지정한 특정 기간의 Fail 발생 현황을 Bar chart 또는 Line chart로 나타냅니다.
+
+<mark style="color:blue;">**Test Records**</mark> : 테스트에 대한 일별(daily) 요약 정보를 나타냅니다. Test Type, Title, Description, Tester, Date, Result, Total, Fail 등의 필드 정보를 포함하며, 특정 일 테스트가 2회 이상 실행되더라도 최초 실행된 테스트의 결과만 제공합니다(summary report 저장 옵션 활성화 조건).
+
+<mark style="color:blue;">**ItemGroup Fails**</mark> : 위 Test Records에 종속된 데이터로써 서로 관련 있는 Test Item 들의 묶음인 Test Group 각각의 총 시험 항목 수(Total) 와 그중 결함 발생 수(Fail)를 나타냅니다. Radar chart 와 Bar chart 중 선택 가능합니다.
+
+<mark style="color:blue;">**Response Time / Collection Stat / Test option**</mark> : 위 Test Records에 종속된 데이터로써 Test Item 별 요청에 대한 응답 시간 분포, 그중 worst case 5가지에 대한 정보, 통계, 테스트 실행 옵션 등의 정보를 제공합니다.
+
+{% hint style="warning" %}
+API Test에 한하며, UIUX, Performance Test의 경우 서비스 준비 중입니다.
+{% endhint %}
 
 
 
