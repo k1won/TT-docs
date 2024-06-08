@@ -84,9 +84,23 @@ API Test에 한하며, UIUX, Performance Test의 경우 서비스 준비 중입�
 
 
 
-## History
+## History (Test)
 
-aa
+테스트 실행 이력을 제공합니다. 한 번에 20건씩 확인 가능하고, 하단의 "More" 버튼 클릭 시 추가로 20건씩 총 100건의 실행 이력을 확인할 수 있습니다. 또한 가장 최근 실행된 테스트 3건에 대해 테스트 결과를 다시 확인할 수 있는 기능을 제공합니다. 사후 테스트 결과 확인을 위해 "Review" 칼럼의 "open" 링크를 클릭하게 되면 해당 테스트의 저장된 시험 결과 데이터들을 로드하여 [API Test Result](undefined-2.md#api-test-result) page에서 테스트 결과 및 관련 로그 등을 다시 확인 가능합니다. 이를 통해 팀 멤버들 간의 테스트 결과 공유가 가능합니다.
+
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p>테스트 실행 이력</p></figcaption></figure>
+
+{% hint style="info" %}
+위에서 설명한 "Review" 기능은 스토리지에 저장된 이전의 테스트 결과를 불러와서 출력해 주는 것입니다. 동일한 시험 조건(script, options)으로 신규 시험 결과 확인이 필요한 경우 [API Test Result](undefined-2.md#api-test-result) page에서 "Run Again" 버튼을 클릭하시거나 아니면 [API Test](undefined-2.md#api-test) page에서 테스트 조건 재 설정 후 "Run" 버튼 클릭하여 재 실행하시기 바랍니다.
+{% endhint %}
+
+{% hint style="warning" %}
+Review를 위한 테스트 결과 데이터는 최대 3건만 제공합니다. 신규 테스트 결과 발생 시 가장 오래된 것을 지우고 신규 결과 포함 최근 3건만 유지한다는 것을 참고해 주시기 바랍니다.
+{% endhint %}
 
 
+
+## History (Operation)
+
+서비스 준비 중입니다.
 
