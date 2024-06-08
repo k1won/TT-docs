@@ -4,6 +4,14 @@ description: 테스트 진행을 위해 필요한 사전 준비 절차(script �
 
 # 테스트 구성
 
+{% hint style="info" %}
+Member role 이 "Manager" 이상인 사용자에게만 허용되는 기능입니다.
+{% endhint %}
+
+{% hint style="info" %}
+Working directory의 허용된 저장 공간을 초과할 경우 script 또는 data file 생성 절차가 거부될 수 있습니다.
+{% endhint %}
+
 ## API Test
 
 TestTracker 의 API Test 기능은 [Postman](https://www.postman.com/)의 script format과 호환성을 유지합니다. 때문에 Postman에서 작성된 test code(collection, environment)를 TestTracker에서 어떠한 변경 없이 그대로 적용 후 사용할 수 있습니다. 단, TestTracker에서 collection이나 environment에 대한 직접적인 생성 또는 내용 수정을 지원하지는 않고, Postman에서 작성 후 script file export 후 해당 파일을 TestTracker에 업로드하는 방식으로 적용 가능합니다. (collection의 경우 추가적으로 URL fetch를 통한 적용도 가능)
@@ -38,7 +46,7 @@ TestTracker 의 API Test 기능은 [Postman](https://www.postman.com/)의 script
 #### environment 적용 (파일 업로드)
 
 1. Postman에서 environment 작성 후 export ([참조](https://learning.postman.com/docs/getting-started/importing-and-exporting/exporting-data/#export-environments))
-2.  estTracker > Workspace > API Test > Environment Choose File 클릭\
+2.  TestTracker > Workspace > API Test > Environment Choose File 클릭\
 
 
     <div align="left">
