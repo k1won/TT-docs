@@ -30,7 +30,7 @@ API Key는 유효기간 동안만 사용이 가능하며, 기본적으로는 365
 
 API Key 갱신을 위해 Profile page의 "User Info" 탭에서 "Request Renew" 버튼을 클릭하세요.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>API Key 갱신 요청을 위한 기능 버튼</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>API Key 갱신 요청을 위한 기능 버튼</p></figcaption></figure>
 
 
 
