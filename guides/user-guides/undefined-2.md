@@ -91,7 +91,7 @@ API Test에 한하며, UIUX, Performance Test의 경우 서비스 준비 중입�
 <figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p>테스트 실행 이력</p></figcaption></figure>
 
 {% hint style="info" %}
-위에서 설명한 "Review" 기능은 스토리지에 저장된 이전의 테스트 결과를 불러와서 출력해 주는 것입니다. 동일한 시험 조건(script, options)으로 신규 시험 결과 확인이 필요한 경우 [API Test Result](undefined-2.md#api-test-result) page에서 "Run Again" 버튼을 클릭하시거나 아니면 [API Test](undefined-2.md#api-test) page에서 테스트 조건 재 설정 후 "Run" 버튼 클릭하여 재 실행하시기 바랍니다.
+위에서 설명한 "Review" 기능은 스토리지에 저장된 이전의 테스트 결과를 불러와서 재구성하는 것입니다. 동일한 시험 조건(script, options)으로 신규 시험 결과 확인이 필요한 경우 [API Test Result](undefined-2.md#api-test-result) page에서 "Run Again" 버튼을 클릭하시거나 아니면 [API Test](undefined-2.md#api-test) page에서 테스트 조건 재 설정 후 "Run" 버튼을 클릭하여 재 실행하시기 바랍니다.
 {% endhint %}
 
 {% hint style="warning" %}
