@@ -10,7 +10,7 @@ description: >-
 
 Workspace는 테스트 타입(API/Ux/Performance)을 선택하거나 관련 리소스 상태확인 또는 설정 등 테스트 실행에 관한 기본 작업 공간이라 할 수 있습니다. 테스트 실행 또는 테스트 결과에 대한 확인 및 분석을 담당하는 다수의 팀원들이 멤버로서 Workspace를 공유하게 됩니다.
 
-<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Workspace 구성</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Workspace 구성</p></figcaption></figure>
 
 <mark style="color:blue;">**Entry**</mark> : TestTracker에서 지원하는 세 가지 테스트 타입을 실행하기 위한 각각의 페이지로 이동할 수 있는 선택 버튼들이 위치합니다.
 
@@ -30,7 +30,7 @@ UIUX, Performance test의 경우 현재 버전에서는 미 지원 상태입니�
 
 API Test는 TestTracker에서 지원하는 세 가지 테스트 타입 가운데 하나이고, Back-end server를 대상으로 각각의 API Endpoint에 대한 테스트 요청을 전송하고 응답 메시지를 통해 Test Case를 검증하는 시험 방식입니다.
 
-<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption><p>API Test 실행 설정</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>API Test 실행 설정</p></figcaption></figure>
 
 <mark style="color:blue;">**Test Script Selection**</mark> : 시험 대상 또는 목적에 따라 여러 test script 가운데 하나를 선택할 수 있고, 세부적으로는 관련 있는 TC 들의 묶음인 Test Suite(Item Group) 역시 선별해서 테스트를 실행할 수 있습니다. 그리고 test script 신규 추가 또는 기존 script modify를 위한 script file upload 기능이 제공됩니다.
 
@@ -44,11 +44,11 @@ API Test는 TestTracker에서 지원하는 세 가지 테스트 타입 가운데
 
 테스트 실행 후 진행 상황 및 실행 결과를 확인할 수 있습니다. 테스트가 진행됨과 동시에 각각의 test item에 대한 테스트 결과가 화면에 반영되고, 모든 테스트 종료 시 오류 발생 여부 및 통계를 확인할 수 있습니다.
 
-<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption><p>Test Item 별 시험 현황 및 종합 결과</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Test Item 별 시험 현황 및 종합 결과</p></figcaption></figure>
 
 테스트 과정에서 발생한 각종 메시지와 로그 등을 개별 test item 별로 확인 가능합니다. 즉, TestTracker 가 TC 검증을 위해 target entity 와 교환한 HTTP Transaction message(Request, Response)와 Console log, Error/Fail contents 등을 Side panel UI를 통해 자세히 확인 가능합니다.
 
-<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption><p>테스트 결과에 대한 detail view</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>테스트 결과에 대한 detail view</p></figcaption></figure>
 
 
 
@@ -68,7 +68,7 @@ API Test는 TestTracker에서 지원하는 세 가지 테스트 타입 가운데
 
 테스트 결과에 대해 요약된 정보를 제공합니다. 최근 365일간의 시험 결과를 바탕으로 Fail 발생 건수, Daily record, Item group 별 Fail 수 및 기타 부가정보 등을 확인할 수 있습니다. 이러한 정보들을 통해 테스트 대상에 대한 품질 현황 및 개선 추이 파악이 용이하도록 하는 것을 목적으로 합니다.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>테스트 결과에 대한 summary report</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>테스트 결과에 대한 summary report</p></figcaption></figure>
 
 <mark style="color:blue;">**Test Fails**</mark> : Bug Curve 표현을 위해 사용자가 지정한 특정 기간의 Fail 발생 현황을 Bar chart 또는 Line chart로 나타냅니다.
 
