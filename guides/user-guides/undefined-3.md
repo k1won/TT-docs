@@ -19,20 +19,48 @@ API test는 [Postman](https://www.postman.com/)의 script 해석 방식과 호�
     <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
     </div>
-3. 위 1. 에서 저장한 collection file 선택 후 열기 버튼 클릭&#x20;
+3. 위 1. 에서 저장한 collection file 선택 후 열기(또는  OK) 버튼 클릭&#x20;
 4. Upload 버튼 클릭
 
 #### collection 적용 (URL)
 
+1. Postman에서 collection 작성 후 우측 "참조" 내용을 바탕으로 access\_key 가 포함된 collection url 확인   ([참조](https://learning.postman.com/docs/collaborating-in-postman/sharing/#sharing-using-the-postman-api))
+2.  TestTracker > Workspace > API Test > Test Script Selection :: Collection URL 입력란에 위 1. 에서 확인한 주소 입력\
 
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+    </div>
+3. Fetch 버튼 클릭
 
 #### environment 적용 (파일 업로드)
 
+1. Postman에서 environment 작성 후 export ([참조](https://learning.postman.com/docs/getting-started/importing-and-exporting/exporting-data/#export-environments))
+2.  estTracker > Workspace > API Test > Test Script Selection :: Environment Choose File 클릭\
 
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+    </div>
+3. 위 1. 에서 저장한 collection file 선택 후 열기(또는  OK) 버튼 클릭
+4. Upload 버튼 클릭
 
 #### 테스트 데이터  업로드
 
+1.  TestTracker > Workspace > Working Directory :: Test Data Choose File 클릭\
 
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+    </div>
+2. Data file 선택 후 열기(또는  OK)버튼 클릭
+3. Upload 버튼 클릭
 
 ## UIUX Test
 
