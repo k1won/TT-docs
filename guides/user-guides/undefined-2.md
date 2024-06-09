@@ -10,7 +10,7 @@ description: >-
 
 Workspace는 테스트 타입(API/Ux/Performance)을 선택하거나 관련 리소스 상태확인 또는 설정 등 테스트 실행에 관한 기본 작업 공간이라 할 수 있습니다. 테스트 실행 또는 테스트 결과에 대한 확인 및 분석을 담당하는 다수의 팀원들이 멤버로서 Workspace를 공유하게 됩니다.
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>Workspace 구성</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p>Workspace 구성</p></figcaption></figure>
 
 <mark style="color:blue;">**Entry**</mark> : TestTracker에서 지원하는 세 가지 테스트 타입을 실행하기 위한 각각의 페이지로 이동할 수 있는 선택 버튼들이 위치합니다.
 
@@ -32,7 +32,7 @@ UI, Performance Test의 경우 현재 버전에서는 미 지원 상태입니다
 
 API Test는 TestTracker에서 지원하는 세 가지 테스트 타입 가운데 하나이고, Back-end server를 대상으로 각각의 API Endpoint에 대한 테스트 요청을 전송하고 응답 메시지를 통해 Test Case를 검증하는 시험 방식입니다.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>API Test 실행 설정</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>API Test 실행 설정</p></figcaption></figure>
 
 <mark style="color:blue;">**Test Script Selection**</mark> : 시험 대상 또는 목적에 따라 여러 test script 가운데 하나를 선택할 수 있고, 세부적으로는 관련 있는 TC 들의 묶음인 Test Suite(Item Group) 역시 선별해서 테스트를 실행할 수 있습니다. 그리고 test script 신규 추가 또는 기존 script modify를 위한 script file upload 기능이 제공됩니다.
 
@@ -70,7 +70,7 @@ API Test는 TestTracker에서 지원하는 세 가지 테스트 타입 가운데
 
 테스트 결과에 대해 요약된 정보를 제공합니다. 최근 365일간의 시험 결과를 바탕으로 Fail 발생 건수, Daily record, Item group 별 Fail 수 및 기타 부가정보 등을 확인할 수 있습니다. 이러한 정보들을 통해 테스트 대상에 대한 품질 현황 및 개선 추이 파악이 용이하도록 하는 것을 목적으로 합니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>테스트 결과에 대한 summary report</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>테스트 결과에 대한 summary report</p></figcaption></figure>
 
 <mark style="color:blue;">**Test Fails**</mark> : Bug Curve 표현을 위해 사용자가 지정한 특정 기간의 Fail 발생 현황을 Bar chart 또는 Line chart로 나타냅니다.
 
@@ -90,7 +90,7 @@ API Test에 한하며 UI, Performance Test의 경우 서비스 준비 중입니�
 
 테스트 실행 이력을 제공합니다. 한 번에 20건씩 확인 가능하고, 하단의 "More" 버튼 클릭 시 추가로 20건씩 총 100건의 실행 이력을 확인할 수 있습니다. 또한 가장 최근 실행된 테스트 3건에 대해 테스트 결과를 다시 확인할 수 있는 기능을 제공합니다. 사후 테스트 결과 확인을 위해 "Review" 칼럼의 "open" 링크를 클릭하게 되면 해당 테스트의 저장된 시험 결과 데이터들을 로드하여 [API Test Result](undefined-2.md#api-test-result) page에서 테스트 결과 및 관련 로그 등을 다시 확인 가능합니다. 이를 통해 팀 멤버들 간의 테스트 결과 공유가 가능합니다.
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p>테스트 실행 이력</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p>테스트 실행 이력</p></figcaption></figure>
 
 {% hint style="info" %}
 위에서 설명한 "Review" 기능은 스토리지에 저장된 이전의 테스트 결과를 불러와서 재구성하는 것입니다. 동일한 시험 조건(script, options)으로 신규 시험 결과 확인이 필요한 경우 [API Test Result](undefined-2.md#api-test-result) page에서 "Run Again" 버튼을 클릭하시거나 아니면 [API Test](undefined-2.md#api-test) page에서 테스트 조건 재 설정 후 "Run" 버튼을 클릭하여 재 실행하시기 바랍니다.
@@ -99,8 +99,6 @@ API Test에 한하며 UI, Performance Test의 경우 서비스 준비 중입니�
 {% hint style="warning" %}
 Review를 위한 테스트 결과 데이터는 최대 3건만 제공합니다. 신규 테스트 결과 발생 시 가장 오래된 것을 지우고 신규 결과 포함 최근 3건만 유지한다는 것을 참고해 주시기 바랍니다.
 {% endhint %}
-
-
 
 ## History (Operation)
 
