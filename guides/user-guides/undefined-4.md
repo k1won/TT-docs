@@ -53,19 +53,15 @@ Script title 우측의 열쇠 모양의 아이콘이 의미하는 것은 해당 
 
 Advanced Settings 에 대한 설명은 아래 내용을 참고해 주시기 바랍니다.
 
-* Save daily summary report : 테스트 종료 시 summary report 저장 여부 선택
-* Persist transaction data for all test results : 테스트 종료 시 기본적으로는 test fail 항목에 대해서만 detail view 패널 확인이 가능하지만 본 옵션 체크 시 모든 테스트 항목에 대해 detail view 제공
-* Send report mail : 테스트 종료 시 report mail 전송 여부 선택
-
-
+* <mark style="color:blue;">Save daily summary report</mark> : 테스트 종료 시 summary report 저장 여부 선택
+* <mark style="color:blue;">Persist transaction data for all test results</mark> : 테스트 종료 시 기본적으로는 test fail 항목에 대해서만 detail view 패널 확인이 가능하지만 본 옵션 체크 시 모든 테스트 항목에 대해 detail view 제공
+* <mark style="color:blue;">Send report mail</mark> : 테스트 종료 시 report mail 전송 여부 선택
 
 #### 4) Run 버튼 클릭
 
 아래의 Run 버튼 클릭 시 테스트가 실행되면서 "API Test Result" page로 전환됩니다.
 
 <figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
-
-이상으로 API Test를 실행하는 방법과 절차를 안내해 드렸습니다.
 
 
 
