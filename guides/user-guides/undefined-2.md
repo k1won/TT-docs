@@ -10,18 +10,20 @@ description: >-
 
 Workspace는 테스트 타입(API/Ux/Performance)을 선택하거나 관련 리소스 상태확인 또는 설정 등 테스트 실행에 관한 기본 작업 공간이라 할 수 있습니다. 테스트 실행 또는 테스트 결과에 대한 확인 및 분석을 담당하는 다수의 팀원들이 멤버로서 Workspace를 공유하게 됩니다.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Workspace 구성</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Workspace 구성</p></figcaption></figure>
 
 <mark style="color:blue;">**Entry**</mark> : TestTracker에서 지원하는 세 가지 테스트 타입을 실행하기 위한 각각의 페이지로 이동할 수 있는 선택 버튼들이 위치합니다.
 
 <mark style="color:blue;">**Test Schedule**</mark> : 예약된 시각에 자동으로 테스트가 실행되도록 설정할 수 있는 기능으로, 예약된 작업, 테스트 종류, 등록자 및 테스트 옵션 등을 확인할 수 있습니다. Schedule job 설정 방법은 "[테스트 실행 (예약)](undefined-5.md)"을 참고해 주시기 바랍니다.
 
-<mark style="color:blue;">**Resources**</mark> : Workspace는 다양한 형태의 리소스들의 조합으로 구성됩니다. 특정 기간 동안 테스트를 몇 회 실행 가능한지 나타내는 카운터, script 또는 data file 보관이 필요한 클라우드 서버 내 영구 저장소, 팀 멤버 등이 해당됩니다. 이러한 각각의 리소스에 대한 현황 확인이 가능하고, 우측의 Setup icon 클릭을 통해 일부 리소스에 대한 구성 변경 이 가능합니다.
+<mark style="color:blue;">**Resources**</mark> : Workspace는 다양한 형태의 리소스들의 조합으로 구성됩니다. Resources는 이러한 자원들의 상태를 나타내는데 특정 기간 동안 테스트를 몇 회 실행했고 실행 가능 잔여 횟수는 몇 회인지, 클라우드 스토리지에서 script 또는 data file 이 점유하는 공간과 최대 허용 크기는 무엇인지, 팀 멤버는 몇 명인지 등이 해당됩니다. 이러한 각 리소스에 대한 현황 확인과 함께 일부 리소스의 경우 편집 또는 설정 변경이 가능하고 이는 우측의 Setup icon 클릭을 통해 나타나는 사이드 패널에서 가능합니다.
+
+<table data-header-hidden><thead><tr><th width="148"></th><th></th></tr></thead><tbody><tr><td>Locked</td><td>테스트 실행 또는 리소스 생성 가능 여부를 나타낸다. TT-Admin에 의해 설정되고, 값이 True인 경우 앞서 언급한 액션들이 제한된다.</td></tr><tr><td>Executions</td><td>특정 기간 동안의 테스트 실행 횟수</td></tr><tr><td>Remains</td><td>테스트 실행 가능 횟수</td></tr><tr><td>Disk</td><td>클라우스 스토리지에서 Working directory 내 contents 들이 차지하는 파일 사이즈의 총합</td></tr><tr><td>Capa</td><td>클라우스 스토리지에서 Working directory에 허용된 최대 저장 공간</td></tr><tr><td>Members</td><td>Workspace에 참여 상태에 있는 팀 멤버 수</td></tr><tr><td>Setup</td><td>팀 멤버의 user role 변경, mailing list 편집 등 일부 리소스에 대한 설정 변경용 기능</td></tr></tbody></table>
 
 <mark style="color:blue;">**Working Directory**</mark> : 테스트 실행에 필요한 script file 및 data file들을 관리할 수 있습니다. 권한이 있는 사용자에 의해 파일 삭제가 가능하고, data file에 한 해 업로드 기능을 지원합니다. Test script file에 대한 생성 또는 업로드는 각 테스트 실행 페이지에서 지원합니다.
 
 {% hint style="warning" %}
-UIUX, Performance test의 경우 현재 버전에서는 미 지원 상태입니다. (추후 지원 예정)
+UIUX, Performance Test의 경우 현재 버전에서는 미 지원 상태입니다. (추후 지원 예정)
 {% endhint %}
 
 
@@ -68,7 +70,7 @@ API Test는 TestTracker에서 지원하는 세 가지 테스트 타입 가운데
 
 테스트 결과에 대해 요약된 정보를 제공합니다. 최근 365일간의 시험 결과를 바탕으로 Fail 발생 건수, Daily record, Item group 별 Fail 수 및 기타 부가정보 등을 확인할 수 있습니다. 이러한 정보들을 통해 테스트 대상에 대한 품질 현황 및 개선 추이 파악이 용이하도록 하는 것을 목적으로 합니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>테스트 결과에 대한 summary report</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>테스트 결과에 대한 summary report</p></figcaption></figure>
 
 <mark style="color:blue;">**Test Fails**</mark> : Bug Curve 표현을 위해 사용자가 지정한 특정 기간의 Fail 발생 현황을 Bar chart 또는 Line chart로 나타냅니다.
 
