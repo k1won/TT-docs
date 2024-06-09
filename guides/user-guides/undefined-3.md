@@ -24,7 +24,7 @@ TestTracker 의 API Test 기능은 [Postman](https://www.postman.com/)의 script
 
     <div align="left">
 
-    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
     </div>
 3. 위 1. 에서 저장한 collection file 선택 후 열기(또는  OK) 버튼 클릭&#x20;
