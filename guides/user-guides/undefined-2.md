@@ -70,7 +70,7 @@ API Test는 TestTracker에서 지원하는 세 가지 테스트 타입 가운데
 
 테스트 결과에 대해 요약된 정보를 제공합니다. 최근 365일간의 시험 결과를 바탕으로 Fail 발생 건수, Daily record, Item group 별 Fail 수 및 기타 부가정보 등을 확인할 수 있습니다. 이러한 정보들을 통해 테스트 대상에 대한 품질 현황 및 개선 추이 파악이 용이하도록 하는 것을 목적으로 합니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>테스트 결과에 대한 summary report</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>테스트 결과에 대한 summary report</p></figcaption></figure>
 
 <mark style="color:blue;">**Test Fails**</mark> : Bug Curve 표현을 위해 사용자가 지정한 특정 기간의 Fail 발생 현황을 Bar chart 또는 Line chart로 나타냅니다.
 
