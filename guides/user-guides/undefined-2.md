@@ -10,7 +10,7 @@ description: >-
 
 Workspace는 테스트 타입(API/Ux/Performance)을 선택하거나 관련 리소스 상태확인 또는 설정 등 테스트 실행에 관한 기본 작업 공간이라 할 수 있습니다. 테스트 실행 또는 테스트 결과에 대한 확인 및 분석을 담당하는 다수의 팀원들이 멤버로서 Workspace를 공유하게 됩니다.
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Workspace 구성</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>Workspace 구성</p></figcaption></figure>
 
 <mark style="color:blue;">**Entry**</mark> : TestTracker에서 지원하는 세 가지 테스트 타입을 실행하기 위한 각각의 페이지로 이동할 수 있는 선택 버튼들이 위치합니다.
 
@@ -23,7 +23,7 @@ Workspace는 테스트 타입(API/Ux/Performance)을 선택하거나 관련 리�
 <mark style="color:blue;">**Working Directory**</mark> : 테스트 실행에 필요한 script file 및 data file들을 관리할 수 있습니다. 권한이 있는 사용자에 의해 파일 삭제가 가능하고, data file에 한 해 업로드 기능을 지원합니다. Test script file에 대한 생성 또는 업로드는 각 테스트 실행 페이지에서 지원합니다.
 
 {% hint style="warning" %}
-UIUX, Performance Test의 경우 현재 버전에서는 미 지원 상태입니다. (추후 지원 예정)
+UI, Performance Test의 경우 현재 버전에서는 미 지원 상태입니다. (추후 지원 예정)
 {% endhint %}
 
 
@@ -54,7 +54,7 @@ API Test는 TestTracker에서 지원하는 세 가지 테스트 타입 가운데
 
 
 
-## UX Test
+## UI Test
 
 서비스 준비 중입니다.
 
@@ -81,7 +81,7 @@ API Test는 TestTracker에서 지원하는 세 가지 테스트 타입 가운데
 <mark style="color:blue;">**Response Time / Collection Stat / Test option**</mark> : 위 Test Records에 종속된 데이터로써 Test Item 별 요청에 대한 응답 시간 분포, 그중 worst case 5가지에 대한 정보, 통계, 테스트 실행 옵션 등의 정보를 제공합니다.
 
 {% hint style="warning" %}
-API Test에 한하며, UIUX, Performance Test의 경우 서비스 준비 중입니다.
+API Test에 한하며 UI, Performance Test의 경우 서비스 준비 중입니다.
 {% endhint %}
 
 
