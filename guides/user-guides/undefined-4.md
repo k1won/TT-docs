@@ -68,3 +68,27 @@ API Test 실행을 위한 예약 설정은 아래와 같은 절차로 진행합�
 
 서비스 준비 중입니다.
 
+
+
+## Schedule Job 확인
+
+테스트 예약 상태 확인은 "Workspace > Test Schedule" 에서 확인 가능합니다. 아래 예시에서 총 3개의 schedule job 이 등록되었고, 그중 하나는 Non-periodic type 이, 나머지 두 개는 Periodic type 이 등록되었음을 확인할 수 있습니다.
+
+각각의 schedule job 은 몇 가지 정보를 나타내는데 script title, test type, schedule job type, 예약자, 예약 시각 등을 포함합니다. 또한 각 schedule job 을 클릭하면 popup의 형태로 test option 과 실행할 item group에 대한 정보를 보여주는 것으로 인해 예약된 테스트에 대한 정확한 정보를 제공할 수 있도록 합니다.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>등록된 schedule job 목록 확인</p></figcaption></figure>
+
+## Schedule Job 삭제
+
+등록된 schedule job 을 삭제하기 위한 방법은 다음과 같습니다. 삭제를 원하는 schedule job에 마우스 포인터를 위치시키면 해당 schedule job의 오른쪽 상단에 "x" 표시가 나타납니다. 해당 x를 클릭하세요.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>특정 Schedule job 삭제 방법</p></figcaption></figure>
+
+</div>
+
+이후 삭제 확인을 위해 아래와 같이 팝업창이 실행되는데 삭제를 원할 경우 "OK" 버튼을 클릭하세요.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Schedule job 삭제 확인</p></figcaption></figure>
+
