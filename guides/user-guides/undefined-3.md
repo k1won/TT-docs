@@ -70,6 +70,12 @@ TestTracker 의 API Test 기능은 [Postman](https://www.postman.com/)의 script
 2. Data file 선택 후 열기(또는  OK)버튼 클릭
 3. Upload 버튼 클릭
 
+### collection 삭제
+
+aa
+
+
+
 ## UIUX Test
 
 서비스 준비 중입니다.
