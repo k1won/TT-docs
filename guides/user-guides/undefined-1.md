@@ -46,11 +46,11 @@ API Test는 TestTracker에서 지원하는 세 가지 테스트 타입 가운데
 
 테스트 실행 후 진행 상황 및 실행 결과를 확인할 수 있습니다. 테스트가 진행됨과 동시에 각각의 test item에 대한 테스트 결과가 화면에 반영되고, 모든 테스트 종료 시 오류 발생 여부 및 통계를 확인할 수 있습니다.
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Test Item 별 시험 현황 및 종합 결과</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>Test Item 별 시험 현황 및 종합 결과</p></figcaption></figure>
 
 테스트 과정에서 발생한 각종 메시지와 로그 등을 개별 test item 별로 확인 가능합니다. 즉, TestTracker 가 TC 검증을 위해 target entity 와 교환한 HTTP Transaction message(Request, Response)와 Console log, Error/Fail contents 등을 Side panel UI를 통해 자세히 확인 가능합니다.
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>테스트 결과에 대한 detail view</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>테스트 결과에 대한 detail view</p></figcaption></figure>
 
 
 

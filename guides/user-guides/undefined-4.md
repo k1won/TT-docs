@@ -80,7 +80,7 @@ API Test 실행을 위한 예약 설정은 아래와 같은 절차로 진행합�
 
 각각의 schedule job 은 몇 가지 정보를 나타내는데 script title, test type, schedule job type, 예약자, 예약 시각 등을 포함합니다. 또한 각 schedule job 을 클릭하면 popup의 형태로 test option 과 실행할 item group에 대한 정보를 보여주는 것으로 인해 예약된 테스트에 대한 정확한 정보를 제공할 수 있도록 합니다.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>등록된 schedule job 목록 확인</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p>등록된 schedule job 목록 확인</p></figcaption></figure>
 
 ## Schedule Job 삭제
 
@@ -88,13 +88,13 @@ API Test 실행을 위한 예약 설정은 아래와 같은 절차로 진행합�
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>특정 Schedule job 삭제 방법</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>특정 Schedule job 삭제 방법</p></figcaption></figure>
 
 </div>
 
 이후 삭제 확인을 위해 아래와 같이 팝업창이 실행되는데 삭제를 원할 경우 "OK" 버튼을 클릭하세요.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Schedule job 삭제 확인</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Schedule job 삭제 확인</p></figcaption></figure>
 
 {% hint style="warning" %}
 User role 이 "Tester" 인 경우 자신이 등록한 schedule job에 한 해 삭제 처리가 가능하고 "Manager" 이상인 경우 생성과 삭제가 모두 허용됩니다.
