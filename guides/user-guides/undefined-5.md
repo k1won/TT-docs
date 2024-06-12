@@ -8,11 +8,11 @@ description: 테스트 결과를 확인하는 방법과 리포트 화면을 구�
 
 Schedule 이 아닌 manual run 을 통해 테스트를 실행한 경우 아래의 화면으로 이동하고 리포트를 위한 준비 단계를 거쳐 test item 별 시험 결과가 실시간으로 화면에 업데이트됩니다.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>테스트 실행 후 준비단계</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>테스트 실행 후 준비단계</p></figcaption></figure>
 
 테스트 종료 시 아래와 같이 시험 결과를 나타내는 라벨(Success, Failed, ..)이 표시되고, 관련 통계와 test item의 개별 실행 결과가 테이블의 형식으로 나타납니다.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>테스트 종료 상태</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>테스트 종료 상태</p></figcaption></figure>
 
 ### Summary
 
@@ -34,7 +34,7 @@ Control 버튼 우측의 역삼각형 버튼은 test option 과 item group 설�
 
 ### Filter
 
-[Result table](undefined-5.md#result-table)의 첫 번째 칼럼(Result) 값들을 대상으로 필터링 기능을 제공합니다.
+[Result table](undefined-5.md#result-table)의 첫 번째 칼럼(Result) 값들을 통해 필터링 기능을 제공합니다.
 
 <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
@@ -52,11 +52,23 @@ Control 버튼 우측의 역삼각형 버튼은 test option 과 item group 설�
 
 <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-<table data-header-hidden><thead><tr><th width="158" align="center"></th><th></th></tr></thead><tbody><tr><td align="center">Iterations</td><td>Test script 총 반복 횟수</td></tr><tr><td align="center">Duration</td><td>테스트 실행에 소요된 시간</td></tr><tr><td align="center">All Items</td><td>Test item의 총합</td></tr><tr><td align="center">All Requests</td><td>Target으로 전송한 Request message의 총합</td></tr><tr><td align="center">All Tests</td><td>Test case의 총합. Postman에서 assertion code 즉, pm.test() 실행 횟수를 의미. <a href="undefined-5.md#result-table">Result table</a>의 "TotalAssertions" 칼럼의 총합과 동일</td></tr><tr><td align="center">Test Fail</td><td>Assertion code에서 fail 발생 횟수. <a href="undefined-5.md#result-table">Result table</a>에서 "FailedCount" 칼럼 값의 총합</td></tr><tr><td align="center">Error</td><td>Script error 발생 총합</td></tr><tr><td align="center">Avg.Rsp.Time</td><td>모든 Request에 대한 평균 응답(response) 시간</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="158" align="center"></th><th></th></tr></thead><tbody><tr><td align="center">Iterations</td><td>Test script 총 반복 횟수</td></tr><tr><td align="center">Duration</td><td>테스트 실행에 소요된 시간</td></tr><tr><td align="center">All Items</td><td>Test item의 총합</td></tr><tr><td align="center">All Requests</td><td>Target으로 전송한 Request message의 총합</td></tr><tr><td align="center">All Tests</td><td>Test case의 총합. Postman에서 assertion code 즉, pm.test() 실행 횟수를 의미. <a href="undefined-5.md#result-table">Result table</a>의 "TotalAssertions" 칼럼 값의 총합</td></tr><tr><td align="center">Test Fail</td><td>Assertion code에서 fail 발생 횟수. <a href="undefined-5.md#result-table">Result table</a>에서 "FailedCount" 칼럼 값의 총합</td></tr><tr><td align="center">Error</td><td>Script error 발생 총합</td></tr><tr><td align="center">Avg.Rsp.Time</td><td>모든 Request에 대한 평균 응답(response) 시간</td></tr></tbody></table>
 
 ### Result table
 
+Test item 별 시험 결과와 시험 정보 등을 나타냅니다. 칼럼(column)은 크게 다섯 종류로 구분되는데 test result, request info, response info, tc info, detail-view를 위한 button 등이고, 각각에 대한 설명은 아래 테이블을 참고해 주세요.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+<table><thead><tr><th width="166" align="center"></th><th></th></tr></thead><tbody><tr><td align="center">Test Result</td><td>해당 test item에서 실행된 test case 들의 시험 결과</td></tr><tr><td align="center">Request Info</td><td>테스트를 위해 target system으로 전송한 request message에 관한 정보를 나타냄</td></tr><tr><td align="center">Response Info</td><td>Request 전송 후 target system으로부터 수신한 response message에 대한 정보를 나타냄</td></tr><tr><td align="center">Test Case Info</td><td>Pass 처리된 tc 와 fail 처리된 tc 그리고 각각에 대한 통계 등을 나타냄</td></tr><tr><td align="center">Detail View</td><td>보다 자세한 http message 및 로그 등을 확인할 수 있는 side panel 을 열기 위한 버튼</td></tr></tbody></table>
+
+### Detail view
+
 aa
+
+
 
 ***
 
