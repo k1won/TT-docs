@@ -22,7 +22,7 @@ Profile page에서 확인할 수 있는 사용자 정보는 다음과 같습니�
 
 ## API Key 갱신
 
-API Key는 유효기간 동안만 사용이 가능하며, 기본적으로는 365일 동안 유지됩니다. 만료일은 Profile page 내 "User Info" 탭에서 확인 가능하고, 만료되기 15일 전부터 TestTracker 로그인 시 아래와 같이 알림메세지를 통해 갱신 안내 문구가 출력됩니다.
+API Key는 서비스 계약기간 동안만 유효합니다. 만료일은 Profile page 내 "User Info" 탭에서 확인 가능하고, 만료되기 15일 전부터 TestTracker 로그인 시 아래와 같이 알림 메시지를 통해 갱신 안내 문구가 출력됩니다.
 
 <figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>API Key 만료일 도래 시 갱신 요청을 위한 알림 메시지</p></figcaption></figure>
 
