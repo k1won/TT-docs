@@ -26,6 +26,12 @@ Workspace는 테스트 타입(API/Ux/Performance)을 선택하거나 관련 리�
 UI, Performance Test의 경우 현재 버전에서는 미 지원 상태입니다. (추후 지원 예정)
 {% endhint %}
 
+### Member Configuration
+
+Resource panel의 "Setup" Icon을 클릭하세요. 팀 멤버의 user role 또는 mailing list를 설정할 수 있는 기능을 제공합니다. 설정을 위한 자세한 방법은 "[멤버 구성 편집](undefined-7.md)" 항목을 참고해 주세요.
+
+<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption><p>멤버 구성 정보 변경 기능</p></figcaption></figure>
+
 
 
 ## API Test

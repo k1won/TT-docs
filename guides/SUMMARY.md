@@ -11,4 +11,4 @@
 * [테스트 실행](user-guides/undefined-3.md)
 * [테스트 실행 (예약)](user-guides/undefined-4.md)
 * [테스트 결과 확인](user-guides/undefined-5.md)
-* [멤버 구성 편집](user-guides/undefined-6.md)
+* [멤버 구성 편집](user-guides/undefined-7.md)
