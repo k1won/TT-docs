@@ -78,7 +78,7 @@ API Test 실행을 위한 예약 설정은 아래와 같은 절차로 진행합�
 
 테스트 예약 상태 확인은 "Workspace > Test Schedule" 에서 확인 가능합니다. 아래 예시에서 총 3개의 schedule job 이 등록되었고, 그중 하나는 Non-periodic type 이, 나머지 두 개는 Periodic type 이 등록되었음을 확인할 수 있습니다.
 
-각각의 schedule job 은 몇 가지 정보를 나타내는데 script title, test type, schedule job type, 예약자, 예약 시각 등을 포함합니다. 또한 각 schedule job 을 클릭하면 popup의 형태로 test option 과 실행할 item group에 대한 정보를 보여주는 것으로 인해 예약된 테스트에 대한 정확한 정보를 제공할 수 있도록 합니다.
+각각의 schedule job 은 몇 가지 정보를 나타내는데 script title, test type, schedule job type, 예약자, 예약 시각 등을 포함합니다. 또한 각 schedule job 을 클릭하면 popup의 형태로 test option 과 실행할 item group에 대한 정보를 보여주는데 이를 통해 해당 schedule job에 대해 정확한 정보를 파악할 수 있도록 합니다.
 
 <figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p>등록된 schedule job 목록 확인</p></figcaption></figure>
 
