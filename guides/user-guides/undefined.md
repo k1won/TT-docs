@@ -24,13 +24,13 @@ Profile page에서 확인할 수 있는 사용자 정보는 다음과 같습니�
 
 API Key는 서비스 계약기간 동안만 유효합니다. 만료일은 Profile page 내 "User Info" 탭에서 확인 가능하고, 만료되기 15일 전부터 TestTracker 로그인 시 아래와 같이 알림 메시지를 통해 갱신 안내 문구가 출력됩니다.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>API Key 만료일 도래 시 갱신 요청을 위한 알림 메시지</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>API Key 만료일 도래 시 갱신 요청을 위한 알림 메시지</p></figcaption></figure>
 
 
 
 API Key 갱신을 위해 Profile page의 "User Info" 탭에서 "Request Renew" 버튼을 클릭하세요.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>API Key 갱신 요청을 위한 기능 버튼</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>API Key 갱신 요청을 위한 기능 버튼</p></figcaption></figure>
 
 
 
@@ -42,7 +42,7 @@ API Key 갱신 요청이 TT-Admin에게 정상적으로 전송이 되면 아래�
 
 TT-Admin에 의해 사용자의 API Key 가 갱신되면 Notification icon을 통해 처리 결과를 확인할 수 있습니다.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>API Key 갱신 요청이 승인된 상태</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>API Key 갱신 요청이 승인된 상태</p></figcaption></figure>
 
 
 
