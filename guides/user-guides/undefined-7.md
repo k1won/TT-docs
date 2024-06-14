@@ -6,7 +6,7 @@ description: 팀 멤버의 user role 변경, 멤버 삭제, mailing list 편집 
 
 멤버 구성에 대한 설정을 위해 "Workspace > Resource > Setup" 경로의 icon 을 클릭하세요. 아래와 같이 브라우저 화면 우측의 side panel 이 나타나고 "Member Configuration"의 "User Role" 과 "Mailing List" 버튼을 통해 각각의 기능을 실행할 수 있습니다.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>멤버 구성 편집 기능 실행</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>멤버 구성 편집 기능 실행</p></figcaption></figure>
 
 {% hint style="warning" %}
 멤버 초대(Invite new members) 기능은 현재 버전에서 지원하지 않습니다. 신규 멤버 추가가 필요한 경우 TT-Admin에게 문의 바랍니다.
@@ -37,7 +37,7 @@ Manager("Manager" role 을 갖는 user)에 의해 팀 멤버들의 역할이 설
 3\) 하단의 "User Role" 선택 항목(Combo-box)에서 설정하고자 하는 user role 선택\
 4\) "Set" 버튼 클릭
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>User role 설정 과정</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>User role 설정 과정</p></figcaption></figure>
 
 
 
