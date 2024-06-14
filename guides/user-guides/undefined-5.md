@@ -8,17 +8,17 @@ description: 테스트 결과를 확인하는 방법과 리포트 화면을 구�
 
 Schedule 이 아닌 manual run 을 통해 테스트를 실행한 경우 아래의 화면으로 이동하고 리포트를 위한 준비 단계를 거쳐 test item 별 시험 결과가 실시간으로 화면에 업데이트됩니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (2).png" alt=""><figcaption><p>테스트 실행 준비 상태</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (2) (1).png" alt=""><figcaption><p>테스트 실행 준비 상태</p></figcaption></figure>
 
 테스트 종료 시 시험 결과와 관련 통계가 업데이트되고, test item의 개별 실행 결과가 테이블의 형식으로 보고됩니다.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (2).png" alt=""><figcaption><p>테스트 종료 상태</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (2) (1).png" alt=""><figcaption><p>테스트 종료 상태</p></figcaption></figure>
 
 ### Summary
 
 Summary 영역은 테스트에 대한 몇 가지 정보를 나타내는데 script의 title 과 test state, 실행 시각 그리고 시험자 이메일 등이 포함됩니다. Test state에 표시될 수 있는 내용과 의미는 아래 테이블을 참고해 주시기 바랍니다.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (2).png" alt=""><figcaption><p>Test Summary</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (2) (1).png" alt=""><figcaption><p>Test Summary</p></figcaption></figure>
 
 <table><thead><tr><th width="154" align="center">State</th><th>Description</th></tr></thead><tbody><tr><td align="center">Running</td><td>테스트가 실행되어 진행 중인 상태</td></tr><tr><td align="center">Standby</td><td>다른 사용자에 의해 테스트가 이미 진행 중인 상태. 먼저 실행 중인 테스트가 종료되면 곧바로 Running 상태가 된다.</td></tr><tr><td align="center">Success</td><td>모든 test case 가 Pass 처리되고 테스트가 종료된 상태</td></tr><tr><td align="center">Failed</td><td>Pass 되지 못하고 결함/오류(Fail) 처리된 test case 가 한 건 이상 발생한 채 테스트 종료된 상태</td></tr><tr><td align="center">Error</td><td>Script error 발생한 채 테스트 종료된 상태</td></tr><tr><td align="center">Aborted</td><td>테스트 진행(Running) 중 Stop 버튼을 클릭하여 테스트 종료된 상태</td></tr><tr><td align="center">TimedOut</td><td>Test option 중 timeout으로 설정한 시간을 초과하여 테스트 실행이 강제 종료된 상태</td></tr><tr><td align="center">Cancelled</td><td>테스트 예약 후 실행 시점에 가용 리소스 소진으로 인해 실행되지 못하고 종료된 상태</td></tr><tr><td align="center">UnknownERR</td><td>비정상 종료</td></tr></tbody></table>
 
@@ -58,7 +58,7 @@ Control 버튼 우측의 역삼각형 버튼은 test option 과 item group 설�
 
 Test item 별 테스트 결과와 테스트 정보 등을 나타냅니다. 구성 정보는 크게 다섯 종류로 구분되는데 test result, request info, response info, test case info, view control 등이고, 각각에 대한 설명은 아래 테이블을 참고해 주세요.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="158" align="center"></th><th></th></tr></thead><tbody><tr><td align="center">Test result</td><td>해당 test item에서 실행된 test case 들의 시험 결과(Pass/Fail/Error)</td></tr><tr><td align="center">Request info</td><td>테스트를 위해 target system으로 전송한 HTTP Request message의 요약 정보</td></tr><tr><td align="center">Response info</td><td>Request 전송 후 target으로부터 수신한 HTTP Response message의 요약 정보</td></tr><tr><td align="center">Test case info</td><td>Pass 처리된 test case와 fail 처리된 test case 그리고 각각에 대한 통계를 나타냄</td></tr><tr><td align="center">View control</td><td>보다 자세한 HTTP message 및 로그 등을 확인할 수 있는 detail-view side panel 을 열기 위한 버튼</td></tr></tbody></table>
 

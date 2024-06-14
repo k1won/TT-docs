@@ -6,7 +6,7 @@ description: 팀 멤버의 user role 변경, 멤버 삭제, mailing list 편집 
 
 멤버 구성에 대한 설정을 위해 "Workspace > Resource > Setup" 경로의 icon 을 클릭하세요. 아래와 같이 브라우저 화면 우측의 side panel 이 나타나고 "Member Configuration"의 "User Role" 과 "Mailing List" 버튼을 통해 각각의 기능을 실행할 수 있습니다.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>멤버 구성 편집 기능 실행</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>멤버 구성 편집 기능 실행</p></figcaption></figure>
 
 {% hint style="warning" %}
 멤버 초대(Invite new members) 기능은 현재 버전에서 지원하지 않습니다. 신규 멤버 추가가 필요한 경우 TT-Admin에게 문의 바랍니다.
@@ -37,7 +37,7 @@ Manager("Manager" role 을 갖는 user)에 의해 팀 멤버들의 역할이 설
 3\) 하단의 "User Role" 선택 항목(Combo-box)에서 설정하고자 하는 user role 선택\
 4\) "Set" 버튼 클릭
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>User role 설정 과정</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>User role 설정 과정</p></figcaption></figure>
 
 
 
@@ -49,5 +49,56 @@ Maintainer 권한을 갖는 user에게 허용됩니다.
 
 ## Mailing List 편집
 
+테스트 옵션에 따라 테스트 종료 시 리포트 메일 전송이 가능한데, 이때 사용하게 될 메일 수신자 리스트 설정에 관한 절차를 설명합니다.\
 
+
+### Mail group 생성
+
+1\) Member Configuration 에서 "Mailing List" 선택\
+2\) "Name" 항목에 mail group 이름 입력  (ex. qa-team)\
+3\) "Create" 버튼 클릭\
+4\) 생성한 mail group 에 추가할 user 들을 멤버 목록에서 선택 (체크박스)\
+5\) 생성된 mail group 의 "Add Here" 버튼 클릭\
+
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Mail group 생성 절차</p></figcaption></figure>
+
+</div>
+
+### Mail group 수정 (mail group 에 user 추가)
+
+1\) Member Configuration 에서 "Mailing List" 선택\
+2\) 멤버 목록에서 추가를 원하는 user 선택\
+3\) 대상 mail group의 "Add Here" 버튼 클릭\
+
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Mail group에 user 추가 절차</p></figcaption></figure>
+
+</div>
+
+
+
+### Mail group 수정 (mail group 에서 user 삭제)
+
+1\) Member Configuration 에서 "Mailing List" 선택\
+2\) 편집을 원하는 mail group 의 "Edit" 버튼 클릭\
+3\) Email 목록에서 삭제를 원하는 항목의 "x" 버튼 클릭\
+4\) "Apply" 버튼 클릭
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Mail group에서 user 삭제 절차</p></figcaption></figure>
+
+
+
+### Mail group 삭제
+
+1\) Member Configuration 에서 "Mailing List" 선택\
+2\) 삭제를 원하는 mail group의 "Del" 버튼 클릭\
+3\) 확인을 묻는 팝업창에서 "OK" 버튼 클릭\
+
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Mail group 삭제 절차</p></figcaption></figure>
 
