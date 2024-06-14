@@ -1,11 +1,11 @@
 # Table of contents
 
-* [Welcome to TestTracker](README.md)
+* [👋 Welcome to TestTracker](README.md)
 
 ## OVERVIEW
 
-* [What we do](overview/what-we-do.md)
-* [Our Features](overview/our-features.md)
+* [💡 What we do](overview/what-we-do.md)
+* [✨ Our Features](overview/our-features.md)
 
 ## User Guides
 
