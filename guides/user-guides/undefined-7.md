@@ -49,8 +49,9 @@ Maintainer 권한을 갖는 user에게 허용됩니다.
 
 ## Mailing List 편집
 
-테스트 옵션에 따라 테스트 종료 시 리포트 메일 전송이 가능한데, 이때 사용하게 될 메일 수신자 리스트 설정에 관한 절차를 설명합니다.\
+테스트 옵션에 따라 테스트 종료 시 리포트 메일 전송이 가능한데, 이때 사용하게 될 메일 수신자 리스트 설정에 관한 절차를 설명합니다.
 
+<figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption><p>Mail list 적용 예</p></figcaption></figure>
 
 ### Mail group 생성
 
