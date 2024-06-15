@@ -23,7 +23,7 @@ TestTracker에서는 이러한 요구사항을 반영하기 위해 멤버들을 
 
 
 
-TestTracker에 계정을 생성하고 서비스 가입 시 기본적으로 설정되는 user role 은 "Guest"입니다. 이후 TT-Admin 은 리더 또는 관리자 역할을 수행하게 될 팀 멤버의 user role 을 "Manager"로 변경하면 이후 Manager role 을 갖는 멤버에 의해 다른 멤버들의 role 이 설정될 수 있습니다.
+TestTracker에 계정을 생성하고 서비스 가입 시 기본적으로 설정되는 user role 은 "Guest"입니다. 이후 TT-Admin 은 리더 또는 관리자 역할을 수행하게 될 팀 멤버의 user role 을 "Manager"로 변경하면 이후부터는 Manager role 을 갖는 멤버에 의해 다른 멤버들의 role 이 설정될 수 있습니다.
 
 {% hint style="warning" %}
 Manager("Manager" role 을 갖는 user)에 의해 팀 멤버들의 역할이 설정되고 그로 인한 일부 멤버에게 서비스 제한이 발생할 수 있는 사항은 해당 Manager의 권한이자 책임으로 귀결된다는 점을 참고해 주시기 바랍니다.
