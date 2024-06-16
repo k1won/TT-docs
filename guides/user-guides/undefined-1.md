@@ -18,7 +18,7 @@ Workspace는 테스트 타입(API/Ux/Performance)을 선택하거나 관련 리�
 
 <mark style="color:blue;">**Resources**</mark> : Workspace는 다양한 형태의 리소스들의 조합으로 구성됩니다. Billing에 의한 usage limit, script file 과 data file 보관을 위한 cloud storage, 팀 멤버 등 테스트 조건 또는 환경 구성을 위해 필요한 것들이 해당됩니다. Resource panel에 나타난 각 항목에 대한 설명은 아래 내용을 참고해 주시기 바랍니다.
 
-<table data-header-hidden><thead><tr><th width="146" align="center"></th><th></th></tr></thead><tbody><tr><td align="center">Locked</td><td>테스트 실행 또는 리소스 생성 가능 여부. TT-Admin에 의해 설정되고, 값이 True인 경우 앞서 언급한 액션들이 제한됨.</td></tr><tr><td align="center">Executions</td><td>특정 기간 동안의 테스트 실행 횟수</td></tr><tr><td align="center">Remains</td><td>테스트 실행 가능한 잔여 횟수</td></tr><tr><td align="center">Disk</td><td>Cloud storage에서 Working directory 내 contents 들이 차지하는 파일 사이즈의 총합</td></tr><tr><td align="center">Capa</td><td>Cloud storage에서 Working directory에 허용된 최대 저장 공간의 크기</td></tr><tr><td align="center">Members</td><td>Workspace에 참여 상태에 있는 팀 멤버 수</td></tr><tr><td align="center">Setup</td><td>팀 멤버의 user role 변경, mailing list 수정 등 일부 리소스에 대한 편집 기능 실행</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="146" align="center"></th><th></th></tr></thead><tbody><tr><td align="center">Locked</td><td>테스트 실행 또는 리소스 생성 가능 여부. TT-Admin에 의해 설정되고, 값이 True 즉, lock 이 활성화된 경우 테스트 실행 등 주요 액션들이 제한됨.</td></tr><tr><td align="center">Executions</td><td>특정 기간 동안의 테스트 실행 횟수</td></tr><tr><td align="center">Remains</td><td>테스트 실행 가능한 잔여 횟수</td></tr><tr><td align="center">Disk</td><td>Cloud storage에서 Working directory 내 contents 들이 차지하는 파일 사이즈의 총합</td></tr><tr><td align="center">Capa</td><td>Cloud storage에서 Working directory에 허용된 최대 저장 공간의 크기</td></tr><tr><td align="center">Members</td><td>Workspace에 참여 상태에 있는 팀 멤버 수</td></tr><tr><td align="center">Setup</td><td>팀 멤버의 user role 변경, mailing list 수정 등 일부 리소스에 대한 편집 기능 실행</td></tr></tbody></table>
 
 <mark style="color:blue;">**Working Directory**</mark> : 테스트 실행에 필요한 script 및 data file들을 관리할 수 있습니다. 권한이 있는 사용자에 의해 파일 삭제가 가능하고, data file에 한 해 업로드를 지원합니다. Test script file에 대한 생성 또는 업로드는 각 [테스트 구성](undefined-2.md) 페이지에서 지원합니다.
 
@@ -30,7 +30,7 @@ UI, Performance Test의 경우 현재 버전에서는 미 지원 상태입니다
 
 Resource panel의 "Setup" Icon을 클릭하세요. 팀 멤버의 user role 또는 mailing list를 설정할 수 있는 기능을 제공합니다. 설정을 위한 자세한 방법은 "[멤버 구성 편집](undefined-7.md)" 항목을 참고해 주세요.
 
-<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption><p>멤버 구성 정보 변경 기능</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption><p>멤버 구성 정보 변경 기능</p></figcaption></figure>
 
 
 
@@ -78,7 +78,7 @@ API Test는 TestTracker에서 제공하는 세 가지 테스트 타입 가운데
 
 <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>테스트 결과에 대한 summary report</p></figcaption></figure>
 
-<mark style="color:blue;">**Test Fails**</mark> : Bug Curve 와 같은 파악이 가능하도록 세 가지 테스트 타입에 대해 특정 기간 동안 Fail 발생 현황을 Bar chart 또는 Line chart로 나타냅니다.
+<mark style="color:blue;">**Test Fails**</mark> : 세 가지 테스트 타입에 대해 특정 기간 동안 Fail 발생 현황을 Bar chart 또는 Line chart로 나타냅니다.
 
 <mark style="color:blue;">**Test Records**</mark> : 테스트에 대한 일별(daily) 요약 정보를 나타냅니다. Test Type, Title, Description, Tester, Date, Result, Total, Fail 등의 필드 정보를 포함하며, 특정 일 테스트가 2회 이상 실행되더라도 최초 실행된 테스트의 결과만 제공합니다(summary report 저장 옵션 활성화 조건).
 
