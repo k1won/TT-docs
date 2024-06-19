@@ -4,8 +4,9 @@
 
 ## OVERVIEW
 
+* [🪄 What customers want](overview/what-customers-want.md)
 * [💡 What we do](overview/what-we-do.md)
-* [✨ Features](overview/features.md)
+* [✨ What is TestTracker](overview/what-is-testtracker.md)
 
 ## User Guides
 
