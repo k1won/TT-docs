@@ -28,6 +28,12 @@ UI, Performance test의 경우 2024년 현재 기능 미지원.
 
 
 
+고객으로부터 업무 협업 의뢰 시 진행 절차는 다음과 같습니다.
+
+<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption><p>업무 의뢰 및 진행 절차</p></figcaption></figure>
+
+
+
 [^1]: **REST API Test** : Back-End server를 대상으로 각각의 API Endpoint에 대한 요청 메시지를 전송하고 응답 메시지 수신 후 Test Case를 검증하는 시험 방식
 
 [^2]: **UI Test** : Web UI Element에 대한 제어를 기반으로 Front-end를 대상으로 한 시험 방식
