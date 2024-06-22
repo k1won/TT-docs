@@ -29,7 +29,7 @@ _<mark style="background-color:yellow;">4) Integrations (예정)</mark>_\
 &#x20; _<mark style="background-color:yellow;">- AI based test code generation & Execution</mark>_
 
 **7) No Install & No setup**\
-&#x20; \- TestTracker는 Cloud에서 제공되는 서비스의 형태(TaaS)로써 별도의 설치 및 셋업 절차 없이 웹에서 로그인을 통해 손쉽게 사용 가능합니다.
+&#x20; \- TestTracker는 Cloud에서 제공되는 서비스의 형태(TaaS)로써 별도의 설치 및 셋업 절차 없이 웹에서 로그인을 통해 손쉽게 사용 가능
 
 
 
