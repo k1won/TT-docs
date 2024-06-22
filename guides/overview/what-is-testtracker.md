@@ -25,7 +25,7 @@ S/W 품질을 개선하고 지속적인 통합(Continuous Integration)을 위해
 5. **Sharing**\
    \- 테스트 환경, 리소스, 시험 결과 데이터를 팀 멤버들과 공유\
 
-6. No code & Instant Test (예정)\
+6. <mark style="background-color:yellow;">No code & Instant Test (예정)</mark>\
    _<mark style="background-color:yellow;">- AI based test code generation & Execution</mark>_\
 
 7. No Install & No setup\
