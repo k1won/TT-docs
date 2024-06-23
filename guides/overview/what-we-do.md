@@ -32,15 +32,19 @@ UI, Performance test의 경우 2024년 현재 기능 미지원.
 
 1\) 고객으로부터 테스트 자동화 구현 의뢰 접수
 
-2\) 대상 서비스에 대한 기능 명세 또는 요구사항서 파악 후 test case 도출
+2\) 대상 서비스에 대한 기능 명세서, 요구사양서, 제약사항 등 파악
 
-3\) Test case 가 테스트 실행 시 검증될 수 있도록 script code로 구현
+3\) 테스트 설계 및 test case 작성 후 자동화 script code로 구현
 
 4\) 자동화 script code를 테스트 실행 도구인 TestTracker에 적용(업로드)
 
 5\) 고객 측 서비스 개발 및 품질 검증 Step에서 TestTracker 활용
 
-<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption><p>업무 의뢰 및 진행 절차</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption><p>업무 의뢰 및 진행 절차</p></figcaption></figure>
+
+
+
+<figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
 
 
