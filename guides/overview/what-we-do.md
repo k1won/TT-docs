@@ -11,7 +11,7 @@
 
 **2) 클라우드 기반 테스팅 플랫폼(TestTracker) 제공** \
 &#x20;\- 자체 개발한 TestTracker는 Web Application 에 대한 테스트 자동화 실행환경을 제공합니다.\
-&#x20;\- 온라인을 통해 언제든 테스트를 실행할 수 있고, test report 및 test log 등을 확인할 수 있습니다.
+&#x20;\- 온라인을 통해 언제든 테스트를 실행할 수 있고 테스트 리포트, 통계 및 상세 로그 등을 확인할 수 있습니다.
 
 
 
@@ -19,7 +19,7 @@
 **TestTracker**
 
 * Cloud 기반의 TaaS(Testing-as-a-Service)로써 웹 서비스 테스트 자동화를 위한 플랫폼.
-* 품질 측정 대상 또는 시험 목적에 따라 3가지 test type에 대해 자동화 실행환경을 제공(API[^1], UI[^2], Performance[^3])
+* 품질 측정 대상 또는 시험 목적에 따라 3가지(API[^1], UI[^2], Performance[^3]) test type에 대해 자동화 실행환경을 제공
 {% endhint %}
 
 {% hint style="warning" %}
@@ -28,9 +28,19 @@ UI, Performance test의 경우 2024년 현재 기능 미지원.
 
 
 
-고객으로부터 업무 협업 의뢰 시 진행 절차는 다음과 같습니다.
+고객과의 업무 협업은 다음과 같은 절차로 진행됩니다.
 
-<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption><p>업무 의뢰 및 진행 절차</p></figcaption></figure>
+1\) 고객으로부터 테스트 자동화 구현 의뢰 접수
+
+2\) 대상 서비스에 대한 기능 명세 또는 요구사항서 파악 후 test case 도출
+
+3\) Test case 가 테스트 실행 시 검증될 수 있도록 script code로 구현
+
+4\) 자동화 script code를 테스트 실행 도구인 TestTracker에 적용(업로드)
+
+5\) 고객 측 서비스 개발 및 품질 검증 Step에서 TestTracker 활용
+
+<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption><p>업무 의뢰 및 진행 절차</p></figcaption></figure>
 
 
 
