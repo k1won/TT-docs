@@ -47,7 +47,7 @@ UI, Performance test의 경우 2024년 현재 기능 미지원.
 
 
 
-위와 같은 진행 과정에서 고객으로부터 테스트 설계에 필요한 각종 관련 자료(사양서 등)들을 제공받고 이에 대한 결과물로써 고객에게 Test Case 와 TestTracker를 통한 테스트 자동화 실행환경을 제공합니다.
+위와 같은 진행 과정에서 고객사로부터 테스트 설계에 필요한 각종 관련 자료(사양서 등)를 제공받고 이에 대한 결과물로써 Test Case 와 TestTracker를 통한 테스트 자동화 실행환경을 제공합니다.
 
 <figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
