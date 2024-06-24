@@ -90,7 +90,7 @@ Maintainer 권한을 갖는 user에게 허용됩니다.
 3\) Email 목록에서 삭제를 원하는 항목의 "x" 버튼 클릭\
 4\) "Apply" 버튼 클릭
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Mail group에서 user 삭제 절차</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Mail group에서 user 삭제 절차</p></figcaption></figure>
 
 
 
@@ -101,5 +101,5 @@ Maintainer 권한을 갖는 user에게 허용됩니다.
 3\) 확인을 묻는 팝업창에서 "OK" 버튼 클릭\
 
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Mail group 삭제 절차</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Mail group 삭제 절차</p></figcaption></figure>
 
