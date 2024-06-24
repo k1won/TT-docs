@@ -2,8 +2,10 @@
 
 위와 같은 고객 요구에 대해 다음과 같은 서비스를 제공합니다.
 
-**1) 테스트 자동화 구현**\
-&#x20;\- 대상 web service의 명세에 기반한 테스트 자동화 스크립트를 작성(구현) 합니다.\
+**1) 테스트 케이스 작성 및 자동화 구현**\
+&#x20;\- 대상 web service에 대한 기능 명세, 요구 사양서, API 문서 등을 참고하여 test case를 작성합니다.\
+&#x20;  (기존의 test case를 활용해 테스트 자동화를 구현할 경우 TC 작성 절차는 생략 가능)\
+&#x20;\- 테스트 케이스에 기반한 테스트 자동화 스크립트를 작성(구현) 합니다.\
 &#x20;\- S/W 품질 개선 분야에서의 오랜 테스트 자동화 실무 경험을 바탕으로 고객 요구를 만족시켜드립니다.\
 &#x20;\- [경력 소개](https://app.gitbook.com/o/Jz2ZCXJfF2jNmfW0vWtT/s/OyQOJURT7A693mea4fE4/)
 
@@ -34,17 +36,20 @@ UI, Performance test의 경우 2024년 현재 기능 미지원.
 
 2\) 대상 서비스에 대한 기능 명세, 요구사양, 제약사항 등 파악
 
-3\) 테스트 설계 및 test case 작성 후 자동화 script code로 구현
+3\) 테스트 설계 및 test case 작성 후 자동화 script code로 구현\
+&#x20; (TC 신규 작성한 경우 고객 리뷰와 보완 절차를 통해 확정 후 자동화 구현)
 
 4\) 자동화 script code를 테스트 실행 도구인 TestTracker에 적용(업로드)
 
 5\) 고객 측 서비스 개발 및 품질 검증 Step에서 TestTracker 활용
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>업무 의뢰 및 진행 절차</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption><p>업무 의뢰 및 진행 절차</p></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+위와 같은 진행 과정에서 고객으로부터 테스트 설계에 필요한 각종 관련 자료(사양서 등)들을 제공받고 이에 대한 결과물로써 고객에게 Test Case 와 TestTracker를 통한 테스트 자동화 실행환경을 제공합니다.
+
+<figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
 
 
