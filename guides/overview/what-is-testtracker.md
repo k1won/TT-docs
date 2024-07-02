@@ -2,7 +2,9 @@
 
 S/W 품질을 개선하고 지속적인 통합(Continuous Integration)을 위해 자동화된 Regression test 실행 환경은 필수입니다. 그러나 이러한 부분을 팀 내에서 모두 직접 해결할 필요는 없습니다. Business model 개발과 서비스 구현에 집중하실 수 있도록 테스트 자동화를 손쉽게 제어할 수 있는 클라우드 플랫폼을 제공합니다.
 
-아래는 고객 요구사항 만족을 위해 자체 개발한 테스트 자동화 실행 환경인 "TestTracker"의 주요 특징 및 기능 요소를 나타냅니다. (일부 기능 추후 제공 예정)
+아래는 고객 요구사항 만족을 위해 자체 개발한 테스트 자동화 실행 환경인 "[TestTracker](https://testtracker.net)"의 주요 특징 및 기능 요소를 나타냅니다. (일부 기능 추후 제공 예정)
+
+[TestTracker](https://testtracker.net) 를 방문하여 직접 확인해주세요.
 
 
 
