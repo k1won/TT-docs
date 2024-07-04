@@ -21,8 +21,12 @@
 [**TestTracker**](https://testtracker.net)
 
 * Cloud 기반의 TaaS(Testing-as-a-Service)로써 웹 서비스 테스트 자동화를 위한 플랫폼.
-* 품질 측정 대상 또는 시험 목적에 따라 3가지(API[^1], UI[^2], Performance[^3]) test type에 대해 자동화 실행환경을 제공
+* 품질 측정 대상 또는 시험 목적에 따라 3가지(API, UI, Performance) test type에 대해 자동화 실행환경을 제공
 {% endhint %}
+
+* **REST API Test** : Back-End server를 대상으로 각각의 API Endpoint에 대한 요청 메시지를 전송하고 응답 메시지 수신 후 Test Case를 검증하는 시험 방식
+* **UI Test** : Web UI Element에 대한 제어를 기반으로 Front-end를 대상으로 한 시험 방식
+* **Performance Test** : 기능 테스트가 아닌 안정성 확인을 위한 성능/용량 시험
 
 {% hint style="warning" %}
 UI, Performance test의 경우 2024년 현재 기능 미지원.
@@ -51,10 +55,3 @@ UI, Performance test의 경우 2024년 현재 기능 미지원.
 
 <figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
-
-
-[^1]: **REST API Test** : Back-End server를 대상으로 각각의 API Endpoint에 대한 요청 메시지를 전송하고 응답 메시지 수신 후 Test Case를 검증하는 시험 방식
-
-[^2]: **UI Test** : Web UI Element에 대한 제어를 기반으로 Front-end를 대상으로 한 시험 방식
-
-[^3]: **Performance Test** : 기능 테스트가 아닌 안정성 확인을 위한 성능/용량 시험
