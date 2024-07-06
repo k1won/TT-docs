@@ -39,3 +39,7 @@ _<mark style="background-color:yellow;">4) Integrations (예정)</mark>_\
 "예정" 표시 항목은 2024년 현재 기준 미 제공 기능입니다. (추후 오픈 예정)
 {% endhint %}
 
+{% hint style="info" %}
+브라우저 호환 : TestTracker는 Chrome (v 126.0) 브라우저에 최적화되었기에 Google Chrome 브라우저를 통해 TestTracker를 이용하실 것을 권장합니다.
+{% endhint %}
+
