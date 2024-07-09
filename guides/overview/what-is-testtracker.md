@@ -1,10 +1,10 @@
 # ✨ What is TestTracker
 
-S/W 품질을 개선하고 지속적인 통합(Continuous Integration)을 위해 자동화된 Regression test 실행 환경은 필수입니다. 그러나 이러한 부분을 팀 내에서 모두 직접 해결할 필요는 없습니다. Business model 개발과 서비스 구현에 집중하실 수 있도록 테스트 자동화를 손쉽게 제어할 수 있는 클라우드 플랫폼을 제공합니다.
+S/W 품질을 개선하고 지속적인 통합(Continuous Integration)과 배포를 위해 테스트 자동화 실행 환경을 갖추는 것은 필수입니다. 그러나 이러한 부분을 귀사 팀 내에서 모두 직접 해결할 필요는 없습니다.
 
-아래는 고객 요구사항 만족을 위해 자체 개발한 테스트 자동화 실행 환경인 "[TestTracker](https://testtracker.net)"의 주요 특징 및 기능 요소를 나타냅니다. (일부 기능 추후 제공 예정)
+Business model 개발과 서비스 운영에 집중할 수 있도록 테스트 자동화 환경을 손쉽게 도입할 수 있는 클라우드 플랫폼 서비스를 제공합니다.
 
-[TestTracker](https://testtracker.net) 를 방문하여 직접 확인해주세요.
+아래는 고객 요구사항 만족을 위해 자체 개발한 테스트 자동화 플랫폼인 "[<mark style="color:blue;">TestTracker</mark>](https://testtracker.net)"의 주요 특징 및 기능 요소를 나타냅니다. (일부 기능 추후 제공 예정)
 
 
 
@@ -34,6 +34,8 @@ _<mark style="background-color:yellow;">4) Integrations (예정)</mark>_\
 &#x20; \- TestTracker는 Cloud에서 제공되는 서비스의 형태(TaaS)로써 별도의 설치 및 셋업 절차 없이 웹에서 로그인을 통해 손쉽게 사용 가능
 
 
+
+[TestTracker](https://testtracker.net) 를 방문하여 직접 확인해주세요.
 
 {% hint style="warning" %}
 "예정" 표시 항목은 2024년 현재 기준 미 제공 기능입니다. (추후 오픈 예정)
