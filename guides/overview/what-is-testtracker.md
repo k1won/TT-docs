@@ -9,7 +9,7 @@ S/W 품질을 개선하고 지속적인 통합(Continuous Integration)과 배포
 그래서 우리는 고민했습니다.
 
 * 개발자에게 테스트 코드 작성을 요구하지 않고, 테스트 담당자에게 자동화 구현을 요구할 필요가 없도록 테스트 자동화를 위한 managed service를 제공하려면 무엇을 해야 할까
-* 웹 서비스 테스트를 위해 UIUX 관점, 서버 기능 관점, 성능/안정성 관점에서의 테스트를 단일 조작성(interface)으로 실행하고 관리하는 것이 가능할까
+* 웹 서비스 테스트를 위해 UIUx 관점, 서버 기능 관점, 성능/안정성 관점에서의 테스트를 단일 조작성(interface)으로 실행하고 관리하는 것이 가능할까
 * _<mark style="color:purple;">별도의 프로그램 설치나 셋업 없이\[1]</mark>_ 누구나 손쉽게 이용할 수 있도록 접근성과 활용성을 높일 수 있는 방법은?
 * 필요한 서비스만 구독해서 특정 기간 또는 사용한 만큼 만 지불하는 비용 부과방식을 도입할 수 있을까
 * 테스트 실행, 결과 보고, 이슈 등록까지의 전 과정을 자동으로 처리할 수 있는 방법은 무엇일까
@@ -31,7 +31,7 @@ S/W 품질을 개선하고 지속적인 통합(Continuous Integration)과 배포
 &#x20; <mark style="background-color:yellow;">- Issue management/tracking system 연동(ex. Redmine, Trac 등) - (예정)</mark>
 
 **3) Unified Platform**\
-&#x20; \- API, UIUx, Performance 자동화 테스트를 단일 플랫폼에서 실행 지원 <mark style="background-color:yellow;">(일부 예정)</mark>
+&#x20; \- API, UIUx, Performance 테스트를 단일 플랫폼에서 실행 <mark style="background-color:yellow;">(일부 예정)</mark>
 
 _<mark style="background-color:yellow;">4) Integrations (예정)</mark>_\
 &#x20; _<mark style="background-color:yellow;">- CI 도구와 연동하여 모든 빌드 및 통합에서 Regression test 실행 지원</mark>_
@@ -50,8 +50,6 @@ _<mark style="background-color:yellow;">4) Integrations (예정)</mark>_\
 
 
 
-[https://testtracker.net](https://testtracker.net) 를 방문하여 직접 확인해 주세요.
-
 {% hint style="warning" %}
 \[1] - Performance test의 경우 Nginx 와 같은 reverse proxy 이후의 upstream 구간부터 측정하도록 테스트를 설계한 경우 별도의 Agent module에 대한 셋업이 필요할 수 있음.
 {% endhint %}
@@ -63,4 +61,8 @@ _<mark style="background-color:yellow;">4) Integrations (예정)</mark>_\
 {% hint style="info" %}
 브라우저 호환 : TestTracker는 Chrome (v 126.0) 브라우저에 최적화되었기에 Google Chrome 브라우저를 통해 TestTracker를 이용하실 것을 권장합니다.
 {% endhint %}
+
+
+
+[https://testtracker.net](https://testtracker.net) 를 방문하여 직접 확인해 주세요.
 
