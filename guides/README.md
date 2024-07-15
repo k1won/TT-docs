@@ -20,7 +20,7 @@
 [what-is-testtracker.md](overview/what-is-testtracker.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="https://app.gitbook.com/o/Jz2ZCXJfF2jNmfW0vWtT/s/gKF3fxRgeUFIllZRFxSa/" %}
+[Manual](https://app.gitbook.com/o/Jz2ZCXJfF2jNmfW0vWtT/s/gKF3fxRgeUFIllZRFxSa/)
 {% endcontent-ref %}
 
