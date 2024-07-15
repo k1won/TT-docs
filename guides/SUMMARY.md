@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Welcome to OOO](README.md)
+* [👋 Welcome to TestTracker](README.md)
 
 ## OVERVIEW
 
