@@ -34,7 +34,8 @@ S/W 품질을 개선하고 지속적인 통합(Continuous Integration)과 배포
 &#x20; \- API, UIUx, Performance 테스트를 단일 플랫폼에서 실행 <mark style="background-color:yellow;">(일부 예정)</mark>
 
 _<mark style="background-color:yellow;">4) Integrations (예정)</mark>_\
-&#x20; _<mark style="background-color:yellow;">- CI 도구와 연동하여 모든 빌드 및 통합에서 Regression test 실행 지원</mark>_
+&#x20; _<mark style="background-color:yellow;">- CI 도구와 연동하여 모든 빌드 및 통합에서 Regression test 실행 지원</mark>_\
+&#x20; _<mark style="background-color:yellow;">-</mark>_ <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">Metrics 및 시계열 데이터(Time series Test Data) 내보내기를 통해 모니터링 시스템과의 연동 지원</mark>
 
 **5) Resource Sharing**\
 &#x20; \- 테스트 환경, 리소스, 시험 결과 데이터를 팀 멤버들과 공유
