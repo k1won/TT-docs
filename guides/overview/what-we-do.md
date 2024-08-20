@@ -20,7 +20,7 @@
 {% hint style="info" %}
 [**TestTracker**](https://testtracker.net)
 
-* Cloud 기반의 TaaS(Testing-as-a-Service)로써 웹 서비스 대상테스트 자동화 플랫폼
+* Cloud 기반의 TaaS(Testing-as-a-Service)로써 웹 서비스 대상 테스트 자동화 플랫폼
 * 품질 측정 대상 또는 시험 목적에 따라 API/UIUx/Performance 테스트 실행 가능
 {% endhint %}
 
