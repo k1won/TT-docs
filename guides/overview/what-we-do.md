@@ -40,18 +40,15 @@ UIUx, Performance test의 경우 2024년 현재 기능 미지원.
 
 2\) 대상 서비스에 대한 기능 명세, 요구사양, 제약사항 등 파악
 
-3\) 테스트 설계 및 test case 작성 후 자동화 script 로 구현\
-&#x20; (TC 신규 작성한 경우 고객 리뷰와 보완 절차를 통해 확정 후 자동화 구현)
+3\) 테스트 설계 및 test case 작성 후 자동화 script 로 구현
 
 4\) 자동화 script 를 테스트 실행 도구인 TestTracker에 적용(업로드)
 
 5\) 고객 측 서비스 개발 및 품질 검증 Step에서 TestTracker 활용
 
-<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption><p>업무 의뢰 및 진행 절차</p></figcaption></figure>
-
-
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>업무 의뢰 및 진행 절차</p></figcaption></figure>
 
 위와 같은 진행 과정에서 고객사로부터 테스트 설계에 필요한 각종 관련 자료(사양서 등)를 제공받고 이에 대한 결과물로써 Test Case 와 TestTracker를 통한 테스트 자동화 실행환경을 제공합니다.
 
-<figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
