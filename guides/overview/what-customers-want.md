@@ -1,4 +1,4 @@
-# 🤷‍♀️ What customers want
+# 🤷 What customers want
 
 OOO는 아래와 같은 고객 불편사항을 해결하기 위해 특화된 전문 기술과 자체 개발 솔루션을 제공합니다.
 
