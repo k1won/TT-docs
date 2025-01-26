@@ -60,7 +60,7 @@ _<mark style="background-color:yellow;">4) Integrations (예정)</mark>_\
 {% endhint %}
 
 {% hint style="info" %}
-브라우저 호환 : TestTracker는 Chrome (v 126.0) 브라우저에 최적화되었기에 Google Chrome 브라우저를 통해 TestTracker를 이용하실 것을 권장합니다.
+브라우저 호환 : TestTracker는 Chrome (v 126.0) 브라우저에 최적화되었기에 Google Chrome 브라우저 및 Chrome 호환 브라우저를통해 TestTracker를 이용하실 것을 권장합니다.
 {% endhint %}
 
 
