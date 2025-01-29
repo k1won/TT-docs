@@ -11,3 +11,7 @@ OOO는 아래와 같은 고객 불편사항을 해결하기 위해 특화된 전
 * 잦은 인력 변동으로 인해 테스트 자동화 구현에 대한 유지 보수가 안되고 역량 확보에도 한계가..
 * 테스트 담당인 내가 개발자도 아닌데 테스트 자동화를 어떻게 구현하란 말인가
 
+
+
+<figure><img src="../.gitbook/assets/image (67).png" alt="" width="391"><figcaption></figcaption></figure>
+
