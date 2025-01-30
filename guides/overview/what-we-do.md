@@ -28,7 +28,11 @@
 * **UIUx Test** : Web element에 대한 식별과 제어를 기반으로 주로 front-end를 통한 시험 방식
 * **Performance Test** : 비기능 테스트로써 다양한 시나리오의 부하를 인가하여 성능 및 안정성을 확인
 
-<figure><img src="../.gitbook/assets/image (68).png" alt="" width="464"><figcaption></figcaption></figure>
+
+
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="464"><figcaption></figcaption></figure>
+
+
 
 {% hint style="warning" %}
 UIUx, Performance test의 경우 2025년 현재 기능 미지원.
@@ -40,7 +44,7 @@ UIUx, Performance test의 경우 2025년 현재 기능 미지원.
 
 고객과의 업무 협업은 다음과 같은 절차로 진행됩니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>업무 의뢰 및 진행 절차</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>업무 의뢰 및 진행 절차</p></figcaption></figure>
 
 > 1\) 테스트 자동화 업무 의뢰 접수
 >
@@ -54,7 +58,7 @@ UIUx, Performance test의 경우 2025년 현재 기능 미지원.
 
 
 
-위와 같은 진행 과정에서 고객사로부터 테스트 설계에 필요한 각종 관련 자료(사양서 등)를 제공받고 이에 대한 결과물로써 **Test Case** 와 TestTracker를 통한 **테스트 자동화 실행환경**을 제공합니다.
+S/W 품질 개선을 위한 지속적인 통합(Continuous Integration)과 배포의 과정에 있어서 테스트를 자동화하는 것은 선택이 아닌 필수입니다. 시험 대상 즉 테스트 항목에서 자동화 커버리지를 확대할수록 운용 중 발생할 수 있는 regression issue를 줄일 수 있고, 개발-검증-배포로 이어지는 일련의 과정에 소요되는 시간을 단축하여 적기에 신규 서비스를 적용할 수 있습니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+S/W 테스트 자동화 분야에서의 오랜 실무 경험을 바탕으로 고객의 니즈를 최적의 자동화 코드로 구현합니다. 그리고 TestTracker를 통해 반복적인 테스트 과정을 효율적으로 자동화하여 귀사의 웹 서비스를 언제나 안정적으로 배포할 수 있도록 지원합니다.
 
