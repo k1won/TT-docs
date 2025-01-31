@@ -2,18 +2,16 @@
 
 위와 같은 고객 요구에 대해 다음과 같은 서비스를 제공합니다
 
-**1) 테스트 케이스 작성 및 자동화 구현**\
-&#x20;\- 테스트 대상에 대한 기능 명세, 요구 사양서, API 문서 등을 참고하여 test case를 작성합니다.\
-&#x20;\- 테스트 케이스에 기반한 테스트 자동화 스크립트를 작성(구현) 합니다.\
-&#x20;\- S/W 품질 개선 분야에서의 오랜 실무 경험을 바탕으로 고객 요구를 만족시켜드립니다.\
-&#x20;\- [경력 소개](https://app.gitbook.com/o/Jz2ZCXJfF2jNmfW0vWtT/s/OyQOJURT7A693mea4fE4/)
+<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
-
-
-**2) 클라우드 기반 테스팅 플랫폼(TestTracker) 제공**\
-&#x20;\- 자체 개발한 TestTracker는 Web Application 에 대한 테스트 자동화 실행환경을 제공합니다.\
-&#x20;\- 온라인을 통해 언제든 테스트를 실행할 수 있고 테스트 리포트, 통계 및 상세 로그 등을 확인할 수 있습니다.\
-&#x20;\- 귀사의 CI/CD 구축 환경과 연동하여 자동화된 Regression Test 실행을 지원합니다.
+* **테스트 설계 및 자동화 구현**\
+  &#x20;\- 테스트 대상에 대한 기능 명세, 요구 사양서, API 문서 등을 참고하여 test case를 작성합니다.\
+  &#x20;\- 테스트 케이스에 기반한 테스트 자동화 스크립트를 작성(구현) 합니다.\
+  &#x20;\- [경력 소개](https://app.gitbook.com/o/Jz2ZCXJfF2jNmfW0vWtT/s/OyQOJURT7A693mea4fE4/)
+* **클라우드 기반 테스팅 플랫폼(TestTracker) 제공**\
+  &#x20;\- 자체 개발한 TestTracker는 Web Application 에 대한 테스트 자동화 운용환경을 제공합니다.\
+  &#x20;\- 온라인을 통해 언제든 테스트를 실행할 수 있고 테스트 리포트, 통계 및 상세 로그 등을 확인할 수 있습니다.\
+  &#x20;\- 귀사의 CI/CD 구축 환경과 연동하여 자동화된 regression test 실행을 지원합니다.
 
 
 
