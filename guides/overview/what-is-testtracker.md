@@ -4,7 +4,7 @@
 
 
 
-<figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption><p>Web service를 대상으로 하는 다양한 테스트 방법</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Web application을 대상으로 하는 다양한 테스트 방법</p></figcaption></figure>
 
 
 
