@@ -4,7 +4,7 @@
 
 
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Web application을 대상으로 하는 다양한 테스트 방법</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Web application을 대상으로 하는 다양한 테스트 방법</p></figcaption></figure>
 
 
 
@@ -27,6 +27,8 @@
 
 
 이와 같은 고민에 대한 해결책으로 자체 개발 솔루션을 구상하게 되었고 그 결과 Web app/service 테스트 자동화를 위한 클라우드 서비스 "[TestTracker](https://testtracker.net)"를 선보이게 되었습니다.
+
+<figure><img src="../.gitbook/assets/image.png" alt="" width="281"><figcaption></figcaption></figure>
 
 
 
