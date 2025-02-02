@@ -42,7 +42,7 @@ UIUx, Performance test의 경우 2025년 현재 기능 미지원.
 
 고객과의 업무 협업은 다음과 같은 절차로 진행됩니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>업무 의뢰 및 진행 절차</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>업무 진행 절차</p></figcaption></figure>
 
 > 1\) 테스트 자동화 업무 의뢰 접수
 >
@@ -52,7 +52,7 @@ UIUx, Performance test의 경우 2025년 현재 기능 미지원.
 >
 > 4\) 자동화 script 를 테스트 실행 도구인 TestTracker에 적용(업로드)
 >
-> 5\) 고객 측 서비스 개발 및 품질 검증 Step에서 TestTracker 활용
+> 5\) 고객 측 서비스 개발 및 품질 검증 단계에서 TestTracker 활용
 
 
 
