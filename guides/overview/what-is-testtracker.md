@@ -26,13 +26,11 @@
 
 
 
-이와 같은 고민에 대한 해결책으로 자체 개발 솔루션을 구상하게 되었고 그 결과 Web app/service 테스트 자동화를 위한 클라우드 서비스 "[TestTracker](https://testtracker.net)"를 선보이게 되었습니다.
+이와 같은 고민에 대한 해결책으로 자체 개발 솔루션을 구상하게 되었고 그 결과 Web app/service 테스트 자동화를 위한 클라우드 서비스 "[TestTracker](https://testtracker.net)"를 선보이게 되었습니다. 아래는 자체 개발한 테스트 자동화 플랫폼인 "[<mark style="color:blue;">TestTracker</mark>](https://testtracker.net)"의 주요 특징 및 기능 요소를 나타냅니다. (일부 기능 추후 제공 예정)
 
 <figure><img src="../.gitbook/assets/image.png" alt="" width="281"><figcaption></figcaption></figure>
 
 
-
-아래는 자체 개발한 테스트 자동화 플랫폼인 "[<mark style="color:blue;">TestTracker</mark>](https://testtracker.net)"의 주요 특징 및 기능 요소를 나타냅니다. (일부 기능 추후 제공 예정)
 
 **1) Test Automation**\
 &#x20; \- 명시된 조건과 절차에 의해 테스트의 흐름이 결정되고 시험자의 수동 조작에 의지하지 않는 테스트 실행 지원\
@@ -42,26 +40,26 @@
 &#x20; \- 테스트 완료 시 시험 결과와 요약 정보를 email로 전송\
 &#x20; \- 최대 1년간의 defect 발생 이력 및 일일(daily) 요약정보 제공\
 &#x20; \- 개별 시험 항목에 대한 자세한 테스트 로그 제공\
-&#x20; <mark style="background-color:yellow;">- Issue management/tracking system 연동(ex. Redmine, Trac 등) - (예정)</mark>
+&#x20; \- Issue management/tracking system 연동(ex. Redmine, Trac 등) - <mark style="background-color:yellow;">(예정)</mark>
 
 **3) Unified Platform**\
 &#x20; \- API, UIUx, Performance 테스트를 단일 플랫폼에서 실행 <mark style="background-color:yellow;">(일부 예정)</mark>
 
-_<mark style="background-color:yellow;">4) Integrations (예정)</mark>_\
-&#x20; _<mark style="background-color:yellow;">- CI 도구와 연동하여 모든 빌드 및 통합에서 Regression test 실행 지원</mark>_\
-&#x20; _<mark style="background-color:yellow;">-</mark>_ <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">Metrics 및 시계열 데이터(Time series Test Data) 내보내기를 통해 모니터링 시스템과의 연동 지원</mark>
+_**4) Integrations**_ _<mark style="background-color:yellow;">(예정)</mark>_\
+&#x20; _-_ CI 도구와 연동하여 모든 빌드 및 통합에서 Regression test 실행 지원\
+&#x20; _-_ Metrics 및 시계열 데이터(Time series Test Data) 내보내기를 통해 모니터링 시스템과의 연동 지원
 
 **5) Resource Sharing**\
 &#x20; \- 테스트 환경, 리소스, 시험 결과 데이터를 팀 멤버들과 공유
 
-<mark style="background-color:yellow;">6) No code & Instant Test (예정)</mark>\
-&#x20; _<mark style="background-color:yellow;">- AI based test code generation & Execution</mark>_
+**6) No code & Instant Test** <mark style="background-color:yellow;">(예정)</mark>\
+&#x20; _- AI based test code generation & Execution_
 
 **7) No Install & No setup**\
-&#x20; \- Cloud 기반 서비스(SaaS)로써 S/W 설치 및 셋업 절차 없이 웹에서 로그인을 통해 손쉽게 사용 가능
+&#x20; \- Cloud 서비스(SaaS)로써 S/W 설치 및 셋업 과정 없이 웹에서 로그인을 통해 손쉽게 사용 가능
 
 **8) Billing**\
-&#x20; \- 구독(단기/연간), 테스트 실행 계획(횟수)
+&#x20; \- 구독(단기/연간), 테스트 실행 계획(횟수)별 과금
 
 
 
@@ -70,7 +68,7 @@ _<mark style="background-color:yellow;">4) Integrations (예정)</mark>_\
 {% endhint %}
 
 {% hint style="warning" %}
-"예정" 표시 항목은 2024년 현재 기준 미 제공 기능입니다. (추후 기능 포함 예정)
+"예정" 표시 항목은 2025년 현재 기준 미 제공 기능입니다. (추후 기능 포함 예정)
 {% endhint %}
 
 {% hint style="info" %}
