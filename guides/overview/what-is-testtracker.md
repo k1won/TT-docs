@@ -12,7 +12,7 @@
 
 
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="" width="312"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (72).png" alt="" width="318"><figcaption></figcaption></figure>
 
 
 
