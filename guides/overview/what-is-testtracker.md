@@ -26,7 +26,7 @@
 
 
 
-이와 같은 고민에 대한 해결책으로 자체 개발 솔루션을 구상하게 되었고 그 결과 Web app/service 테스트 자동화를 위한 클라우드 서비스 "[TestTracker](https://testtracker.net)"를 선보이게 되었습니다. 아래는 자체 개발한 테스트 자동화 플랫폼인 "[<mark style="color:blue;">TestTracker</mark>](https://testtracker.net)"의 주요 특징 및 기능 요소를 나타냅니다. (일부 기능 추후 제공 예정)
+이와 같은 고민에 대한 해결책으로 자체 개발 솔루션을 구상하게 되었고 그 결과 Web app/service 테스트 자동화를 위한 클라우드 플랫폼인 "[TestTracker](https://testtracker.net)"를 선보이게 되었습니다. 아래는 "[<mark style="color:blue;">TestTracker</mark>](https://testtracker.net)"의 주요 특징 및 기능 요소를 나타냅니다. (일부 기능 추후 제공 예정)
 
 <figure><img src="../.gitbook/assets/image.png" alt="" width="281"><figcaption></figcaption></figure>
 
