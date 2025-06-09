@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Welcome to TestTracker](README.md)
+* [👋 Welcome to TestFactory](README.md)
 
 ## OVERVIEW
 
